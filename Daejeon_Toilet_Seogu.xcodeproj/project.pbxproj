@@ -13,6 +13,7 @@
 		133AEA0C291A4E3E00DEB0B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133AEA0A291A4E3E00DEB0B6 /* Main.storyboard */; };
 		133AEA0E291A4E3E00DEB0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133AEA0D291A4E3E00DEB0B6 /* Assets.xcassets */; };
 		133AEA11291A4E3E00DEB0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133AEA0F291A4E3E00DEB0B6 /* LaunchScreen.storyboard */; };
+		13D477D1291B490B0023E410 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D477D0291B490B0023E410 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		133AEA0D291A4E3E00DEB0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133AEA10291A4E3E00DEB0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		133AEA12291A4E3E00DEB0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D477D0291B490B0023E410 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				133AEA06291A4E3E00DEB0B6 /* SceneDelegate.swift */,
 				133AEA08291A4E3E00DEB0B6 /* ViewController.swift */,
 				133AEA0A291A4E3E00DEB0B6 /* Main.storyboard */,
+				13D477D0291B490B0023E410 /* Launch Screen.storyboard */,
 				133AEA0D291A4E3E00DEB0B6 /* Assets.xcassets */,
 				133AEA0F291A4E3E00DEB0B6 /* LaunchScreen.storyboard */,
 				133AEA12291A4E3E00DEB0B6 /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				133AEA11291A4E3E00DEB0B6 /* LaunchScreen.storyboard in Resources */,
 				133AEA0E291A4E3E00DEB0B6 /* Assets.xcassets in Resources */,
+				13D477D1291B490B0023E410 /* Launch Screen.storyboard in Resources */,
 				133AEA0C291A4E3E00DEB0B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Daejeon-Toilet-Seogu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Daejeon-Toilet-Seogu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
